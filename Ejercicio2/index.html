@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de empleado</title>
+    <script src="datos_correctos.js"></script>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+    .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+</style>
+
+  </head>
+    
+ <body>
+
+<h3>DATOS DE EMPLEADO</h3>
+<form action="datos_correctos.html" method="post" onsubmit="return validacion()">
+
+<p>Número empleado: <input type="text" name="numero" id="numero"/> <span id="errorNumero" style="display:none;color:red"></span> </p>
+<p>Directivo: <input type="text" name="directivo" id="directivo" /> <span id="errorDirectivo" style="display:none;color:red"></span> </p>
+
+<p>
+<input type="submit" value="Enviar" />
+</p>
+</form>
+
+</body>
+</html>
