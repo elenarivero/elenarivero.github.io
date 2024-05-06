@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="registro_correcto.js"></script>
+   
+  </head>
+    
+ <body>
+
+<h3>LOGIN</h3>
+<form action="registro_correcto.html" method="get" onsubmit="return validacion()">
+
+<p>Usuario: <input type="text" name="usuario" id="usuario" maxlength="50" /> <span id="errorUsuario" style="display:none;color:red"></span> </p>
+<p>Contraseña: <input type="text" name="password" id="password" maxlength="50" /> <span id="errorPassword" style="display:none;color:red"></span> </p>
+
+<p>
+<input type="submit" value="Enviar" id="enviar"/>
+</p>
+</form>
+
+</body>
+</html>
