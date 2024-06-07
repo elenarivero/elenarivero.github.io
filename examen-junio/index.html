@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguimiento del Envío</title>
+    <script src="envio_correcto.js"></script>
+   
+  </head>
+    
+ <body>
+
+<h3>SEGUIMIENTO ENVÍO</h3>
+<form action="estado_envio.html" method="get" onsubmit="return validacion()">
+
+<p>Número móvil: <input type="text" name="movil" id="movil" maxlength="50" /> <span id="errorMovil" style="display:none;color:red"></span> </p>
+<p>Código de envío: <input type="text" name="codigo" id="codigo" maxlength="50" /> <span id="errorCodigo" style="display:none;color:red"></span> </p>
+
+<p>
+<input type="submit" value="Enviar" id="enviar"/>
+</p>
+</form>
+
+</body>
+</html>
